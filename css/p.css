@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+
+   .hero-wrap{
+    background-image: url(../images/bg_a.jpg) !important;
+   }
+   
+}
+
+
+
