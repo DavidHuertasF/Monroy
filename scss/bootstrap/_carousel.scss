@@ -171,7 +171,7 @@
     // Use transparent borders to increase the hit area by 10px on top and bottom.
     border-top: $carousel-indicator-hit-area-height solid transparent;
     border-bottom: $carousel-indicator-hit-area-height solid transparent;
-    opacity: .5;
+    opacity: .3;
     @include transition($carousel-indicator-transition);
   }
 

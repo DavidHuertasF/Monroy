@@ -29,50 +29,6 @@ var array1 = ["Dinero",
 array1.forEach(element => $(".list-belongings").append( 
     "<div  class='col-sm-5 col-md-3'><p style='     white-space: nowrap; margin-left:5%;'><input type='checkbox' id='"+element+"' /><label style='margin-left:5%;' for='test1'>"+element+"</label></p></div>" ));
 
-    // "Servicios organizados de:"
-    // alimentación,
-    // Transporte,
-    // Limpieza,
-    // Telecomunicaciones,
-    // Interpretación,
-    // Traducción,
-    // Editoriales,
-    // Reparación,
-    // Educativos,
-    // Médicos,
-    // De distribución
-    // Muebles
-    // Equipo de oficina
-    // Maquinaria
-    // Inmuebles
-    // Fábricas
-    // Talleres
-    // Inversiones
-    // Combustibles
-    // Marcas
-    // Envases
-    // Paquetería
-    // Producción cinematográfica
-    
-    // Contenidos multimedia
-    // Diseños
-    // Pinturas
-    // Realizaciones
-    // Coreografías
-    // Publicaciones electrónicas
-    // Ilustraciones
-    // Diseños de vídeo juegos
-    // Producciones televisivas
-    // Producciones musicales
-    // Regalias
-    // Aeronaves
-
-
-
-
-
-
-
     // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -97,4 +53,39 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+$( document ).ready(function() {
+});
+
+var show = false;
+var showB = false;
+
+window.addEventListener("scroll", function (event) {
+  if (!show) {
+    var scroll = this.scrollY;
+    var height = document.getElementsByClassName("title_p")[0].offsetTop;
+    if (scroll > height) {
+      show = x();
+    }
+  }
+
+  if (!showB) {
+    var scroll = this.scrollY;
+    var height = document.getElementsByClassName("illustration-a")[0].offsetTop;
+    if (scroll > height) {
+      show = xs();
+    }
+  }
+});
+
+function x() {
+  document.getElementsByClassName("question-a_content")[0].style.display = "flex";
+  return true;
+  
+}
+
+function xs() {
+  document.getElementsByClassName("question-b_content")[0].style.display = "flex";
+  return true;
 }

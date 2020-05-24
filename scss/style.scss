@@ -1,6 +1,7 @@
 @import 'bootstrap/bootstrap';
 @import 'bootstrap/variables';
 @import 'phone';
+@import 'home';
 
 $font-primary: 'Poppins',Arial, sans-serif;
 $font-secondary: 'Lora',serif;
@@ -302,7 +303,7 @@ h1, h2, h3, h4, h5,
 		right: 0;
 		bottom: 0;
 		content: '';
-		opacity: .5;
+		opacity: .3;
 		background: $black;
 	}
 	&.hero-wrap-2{
@@ -1519,7 +1520,7 @@ textarea.form-control {
 		.seperator {
 			display: inline-block;
 			margin: 0 10px;
-			opacity: .5;
+			opacity: .3;
 		}
 	}
 }
@@ -2060,6 +2061,3 @@ textarea.form-control {
 
 // Checkbox
 
-.check-div{
-	width:auto !important;
-}
