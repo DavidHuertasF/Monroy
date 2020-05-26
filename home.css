@@ -49,6 +49,23 @@
   font-weight: bold;
 }
 
+.whatsapp-button{
+  width: 9vh;
+  position: fixed;
+  top: 85vh;
+  z-index: 1;
+  right: 5vw;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.whatsapp-button:hover{
+  width: 11vh;
+  cursor: pointer;
+}
+
+
+
 @keyframes lmm {
     0% {
       opacity: 0;
@@ -67,3 +84,5 @@
     flex-direction: column; 
     align-items: center;
   }
+
+  

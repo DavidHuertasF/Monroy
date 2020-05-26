@@ -29,34 +29,64 @@ var array1 = ["Dinero",
 array1.forEach(element => $(".list-belongings").append( 
     "<div  class='col-sm-5 col-md-3'><p style='     white-space: nowrap; margin-left:5%;'><input type='checkbox' id='"+element+"' /><label style='margin-left:5%;' for='test1'>"+element+"</label></p></div>" ));
 
-    // Get the modal
-var modal = document.getElementById("myModal");
+var modalA = document.getElementById("myModalTestamento");
+var modalB = document.getElementById("myModalParticion");
+var modalC = document.getElementById("myModalSucesion");
+var modalD = document.getElementById("myModalPertenencia");
 
-// Get the button that opens the modal
 var btn = document.getElementById("myBtn");
+var btnB = document.getElementById("myBtnB");
+var btnC = document.getElementById("myBtnC");
+var btnD = document.getElementById("myBtnD");
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+var spanB = document.getElementsByClassName("close")[1];
+var spanC = document.getElementsByClassName("close")[2];
+var spanD = document.getElementsByClassName("close")[3];
 
-// When the user clicks on the button, open the modal
 btn.onclick = function() {
-  modal.style.display = "block";
+  modalA.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+btnB.onclick = function() {
+  modalB.style.display = "block";
+}
+
+btnC.onclick = function() {
+  modalC.style.display = "block";
+}
+
+btnD.onclick = function() {
+  modalD.style.display = "block";
+}
+
+
 span.onclick = function() {
-  modal.style.display = "none";
+  modalA.style.display = "none";
+}
+
+spanB.onclick = function() {
+  modalB.style.display = "none";
+}
+
+spanC.onclick = function() {
+  modalC.style.display = "none";
+}
+
+spanD.onclick = function() {
+  modalD.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modalA) {
+    modalA.style.display = "none";
+    modalB.style.display = "none";
+    modalC.style.display = "none";
+    modalD.style.display = "none";
   }
 }
 
-$( document ).ready(function() {
-});
 
 var show = false;
 var showB = false;
