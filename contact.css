@@ -1,0 +1,12 @@
+.container-form{
+    display: grid; 
+    grid-template-columns: 57vw 30vw; 
+    grid-gap:15px;
+
+}
+
+ @media screen  and  (orientation: portrait) {
+    .container-form{
+        grid-template-columns: 90vw ;
+    }
+ }
