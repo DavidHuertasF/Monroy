@@ -23,7 +23,7 @@ var array1 = ["Dinero",
 
 
 array1.forEach(element => $(".list-belongings").append( 
-    "<div  class='col-sm-5 col-md-3'><p style='     white-space: nowrap; margin-left:5%;'><input type='checkbox' id='"+element+"' /><label style='margin-left:5%;' for='test1'>"+element+"</label></p></div>" ));
+    "<div style='display:flex; align-items:center;'   class='col-sm-6 col-md-5'><i style='color:#125499;' class='fas fa-archive'></i> <p style='     white-space: nowrap; margin-left:5%; margin-top: 4%;'>"+element+"</p></div>" ));
 
 var modalA = document.getElementById("myModalTestamento");
 var modalB = document.getElementById("myModalParticion");

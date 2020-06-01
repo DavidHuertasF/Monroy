@@ -5415,7 +5415,8 @@ button.bg-dark:focus {
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important; }
+  display: flex !important; 
+  margin-left: auto;}
 
 .d-inline-flex {
   display: -webkit-inline-box !important;
@@ -7985,7 +7986,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999; }
+  color: #444343; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
