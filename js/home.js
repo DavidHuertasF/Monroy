@@ -11,9 +11,7 @@ var array1 = ["Dinero",
     "Animales",
     "Textiles ",
    " Creaciones de Sofware",
-    "Aplicaciones ",
    "Creaciones Artisitcas",
-   "Creaciones musicales",
   "Patentes",
    "Marcas",
   "Franquicias",
@@ -23,7 +21,7 @@ var array1 = ["Dinero",
 
 
 array1.forEach(element => $(".list-belongings").append( 
-    "<div style='display:flex; align-items:center;'   class='col-sm-6 col-md-5'><i style='color:#125499;' class='fas fa-archive'></i> <p style='     white-space: nowrap; margin-left:5%; margin-top: 4%;'>"+element+"</p></div>" ));
+    "<div style='display:flex; align-items:center;'   class='col-sm-6 col-md-4'><i style='color:#125499;' class='fas fa-archive'></i> <p style='     white-space: nowrap; margin-left:5%; margin-top: 4%;'>"+element+"</p></div>" ));
 
 var modalA = document.getElementById("myModalTestamento");
 var modalB = document.getElementById("myModalParticion");

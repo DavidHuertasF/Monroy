@@ -8559,7 +8559,8 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding-top: 15vh;
+      padding-bottom: 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9606,7 +9607,7 @@ textarea.form-control {
     }
 
     .lema{
-      margin-top: 40vh;
+      margin-top: 35vh;
      }
 
      .icon_p{
@@ -9640,9 +9641,9 @@ textarea.form-control {
 
 /* The Close Button */
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
+ color: #f00;
+    font-size: 40px;
+    position: absolute;
   font-weight: bold;
 }
 
