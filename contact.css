@@ -1,6 +1,6 @@
 .container-form{
     display: grid; 
-    grid-template-columns: 57vw 30vw; 
+    grid-template-columns: 30vw 45vw; 
     grid-gap:15px;
 
 }
