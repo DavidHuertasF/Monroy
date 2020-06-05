@@ -3,7 +3,6 @@
     font-weight: bold;
     font-size: 5vh;
     color: #125499;
-    line-height: 1.3vh;
     animation: lmm 2s  forwards linear;
 }
 
@@ -85,4 +84,7 @@
     align-items: center;
   }
 
+  .hero-wrap{
+    height: 115vh !important;
   
+  }
