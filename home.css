@@ -88,3 +88,7 @@
     height: 115vh !important;
   
   }
+
+  .ftco-footer-widget ul li a, .ftco-footer-widget ul li a span {
+    color: white !important;
+} 

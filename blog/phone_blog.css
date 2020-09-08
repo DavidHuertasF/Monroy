@@ -1,0 +1,24 @@
+@media screen  and  (orientation: portrait) {
+
+    .hero-wrap {
+        background-image: url(../images/bg_23.jpg) !important;
+        height: 25vh !important;
+    }
+
+    .section-a{
+        margin-top: 5vh !important;
+        margin-bottom: 5vh;
+        flex-direction: column;
+    }
+    .section-video{
+        margin-top: 5vh !important;
+    }
+
+    .title{
+        font-size: 3vw;
+    }
+
+    .leadd{
+        font-size: 3vw;
+    }
+}
